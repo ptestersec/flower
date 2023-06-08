@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3-alpine3.18
 
 # Get latest root certificates
 RUN apk add --no-cache ca-certificates tzdata && update-ca-certificates
